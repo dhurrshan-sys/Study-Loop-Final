@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--
+        Native Android theme used while StudyLoop is starting.
+        This prevents a bright white screen from appearing
+        before the Jetpack Compose interface loads.
+    -->
+    <style
+        name="Theme.StudyLoop"
+        parent="android:Theme.Material.NoActionBar">
+
+        <!-- Dark background shown during application startup. -->
+        <item name="android:windowBackground">#0B1210</item>
+
+        <!-- Matches the system bars with the StudyLoop background. -->
+        <item name="android:statusBarColor">#0B1210</item>
+        <item name="android:navigationBarColor">#0B1210</item>
+
+        <!-- Uses light icons so they remain visible on dark system bars. -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- StudyLoop's mint-green accent colour. -->
+        <item name="android:colorAccent">#7BE0B0</item>
+
+        <!-- Allows the application to control its own screen layout. -->
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+</resources>

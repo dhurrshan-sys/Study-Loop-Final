@@ -1,0 +1,14 @@
+# Android Studio and generated files
+*.iml
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# Separate project beside StudyLoop's app folder
+/MyApplication/
